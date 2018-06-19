@@ -1,0 +1,20 @@
+Source: netils
+Section: python
+Priority: optional
+Maintainer: Brad Cowie <brad@faucet.nz>
+Build-Depends: debhelper (>=9),
+               dh-python,
+               python3-all,
+               python3-setuptools
+Standards-Version: 3.9.6
+Homepage: https://pypi.org/project/netils/
+X-Python3-Version: >= 3.2
+#Vcs-Git: git://github.com/samrussell/netils.git
+#Vcs-Browser: https://github.com/samrussell/netils.git
+
+Package: python3-netils
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: A very small collection of functions that are useful for networking in Python
+ .
+ This package installs the library for Python 3.

@@ -1,0 +1,9 @@
+netils for Debian
+-----------------
+
+A very small collection of functions that are useful for networking in Python.
+
+More information at https://github.com/samrussell/netils
+
+ -- Brad Cowie <brad@faucet.nz>  Mon, 18 Jun 2018 13:32:41 +1200
+
